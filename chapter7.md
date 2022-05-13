@@ -22,7 +22,7 @@ Electrical resistivity methods are used extensively in
 
 ### CH7.2.1 True resistivity
 
-Resistance (R) is proportional to length (L ) divided by area (A): R ∝ L /A
+Resistance (R) is proportional to length (L) divided by area (A): R ∝ L /A
 
 This can be written as R = ρL /A, where ρ is the true resistivity
 
