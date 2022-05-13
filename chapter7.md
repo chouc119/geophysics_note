@@ -35,5 +35,5 @@ The inverse of resistivity (1/ρ) is conductivity σ
 
  units : (S/m) =  (Ω−1 m−1)
  
- 
+ 補充:代號是什麼意思 定律補充
  
