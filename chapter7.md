@@ -17,6 +17,7 @@ Electrical resistivity methods are used extensively in
 - mapping out the areal extent of remnants of buried foundations of ancient buildings
 - downhole logging
 
+
 ----------------------------------------------------------------------------
 
 ### CH7.2.1 True resistivity
@@ -33,3 +34,6 @@ By Ohm’s Law
 The inverse of resistivity (1/ρ) is conductivity σ 
 
  units : (S/m) =  (Ω−1 m−1)
+ 
+ 
+ 
