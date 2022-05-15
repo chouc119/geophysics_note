@@ -1,39 +1,83 @@
 ----------------------------------------------------------------------------
 
-### Book : An Introduction to Applied and Environmental Geophysics_2nd Edition
+#### Book : An Introduction to Applied and Environmental Geophysics_2nd Edition
 
-### Author : John M. Reynolds
+#### Author : John M. Reynolds
 
-### Chapter : Chapter7_Electrical Resistivity Methods
+#### Chapter : Chapter7_Electrical Resistivity Methods
 
 ----------------------------------------------------------------------------
 
 ### CH7.1 Introduction
 
-Electrical resistivity methods are used extensively in 
-- search for suitable groundwater sources
-- monitor types of groundwater pollution
-- locate subsurface cavities, faults and fissures, permafrost, mine shafts
-- mapping out the areal extent of remnants of buried foundations of ancient buildings
-- downhole logging
+電阻法廣泛應用在
+- 尋找合適水資源
+- 監測地下水汙染(的類型)
+- ⼯程勘測中，定位地下空腔、斷層和裂縫、永久凍⼟、礦井
+- 考古學中，⽤於繪製埋於地底的古建築遺跡
+- 井下測勘
 
 
 ----------------------------------------------------------------------------
 
 ### CH7.2.1 True resistivity
 
-Resistance (R) is proportional to length (L) divided by area (A): R ∝ L /A
+#### 歐姆定律
 
-This can be written as R = ρL /A, where ρ is the true resistivity
+- 電導體兩端的 電壓(V) 與通過電導體的 電流(I) 成正比，可表示成 V∝I
 
-By Ohm’s Law
+- 對於任意電導體（電路、電路元件、電阻器），電阻(R) 可定義為此正比關係的比例常數，即 R=V/I
+
+- 任何電導體都有電阻，即使超導體在一般溫度下也具有微小的電阻
+ 
+  - 然而並不是每一種元件都遵守歐姆定律，此定律是經過多次實驗而推斷的法則，只有在理想狀況下才會成立
+
+  - 遵守歐姆定律的元件或電路都稱為歐姆式導體，其電阻與電流、電壓的變動無關
+
+  - 不遵守歐姆定律的元件或電路稱為非歐姆式導體，其電阻可能會與電流、電壓的變動有關
+
+
+根據歐姆定律，電阻率(ρ) ，單位為 (Ωm)，可推導成
 
 - ρ = E /J (Ωm)
+  - E 是電場，J 是物質的電流密度
+  
 - ρ = VA/IL (Ωm)
+  - V 是電壓，A 是電流強度，I 是通過電導體的電流，L 是導體長度
 
-The inverse of resistivity (1/ρ) is conductivity σ 
+- σ =1/ρ 是物質的電導率 ，單位(Ω−1 m−1)
 
- units : (S/m) =  (Ω−1 m−1)
+
+電阻(R) 可表示成 
+
+- R = ρL /A (ρ為真實電阻率)
+  - ρ 為真實電阻率，L 是導體長度，A 是電流強度
+
+- 即 R ∝ L /A
+
  
- 補充:代號是什麼意思 定律補充
+#### Anisotropy 非等向性
+
+- 指物體的全部或部分物理、化學等性質隨方向的不同而有所變化的特性
+- 許多的物理量都具有非均向性，如電導率、在酸中的溶解速度
+
+非等向性在不同領域的運用
+
+- 物理學可分為
+  - 磁性非等向性
+  - 電性非等向性
+  - 光學非等向性
+  - 結構非等向性
+
+- 地質學
+  - 在地球物理的研究領域常常使用的是地震波的非等向性，地震波在不同方向傳遞的波速不同。造成此現象的原因是岩石的組成礦物本身就是不具有均向性的
+  - 當地震波傳遞經過此種岩石時，會造成垂直方向振動的波與水平方向振動的波波速不同，測站會量到兩個不同方向振動的波抵達之時間差。藉由量測時間差，就可以推知地球內部岩石的分佈情況
+  - 在礦藏探勘中，也常用到利用每個岩層之間，電阻率的非等向性來建構地底的結構，進而探知礦藏或油氣的分佈
+
+- 材料科學
+  - 木材、竹子等都具有非等向性的特性
+  - 晶體的非等向性：同一晶體的不同方向上具有不同的特性
+
+
+
  
