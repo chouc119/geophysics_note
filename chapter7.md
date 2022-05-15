@@ -181,7 +181,7 @@ inductive coupling effects 電容耦和效應
 #### 主要的電極配置類型
 - Wenner 陣列
   - 標準 Wenner 陣列
-  - 修正 Wenner 陣列
+  - 修正 Wenner 陣列 (P.296沒讀懂)
   - Tripotential (α, β and γ arrays)(不懂)
 
 - Schlumberger 陣列
@@ -190,6 +190,7 @@ inductive coupling effects 電容耦和效應
   - 梯度陣列 (Gradient)
    
 - 偶極對偶極陣列
+  - 廣泛使用在礦產探勘中的誘發極化(induced polarisation)上
   - 正常(軸向、極向)
   - 方位角
   - 徑向
@@ -199,4 +200,31 @@ inductive coupling effects 電容耦和效應
   - 赤道
   - 正方形 (赤道型的延伸)
   
+----------------------------------------------------------------------------
+
+### CH7.3.3 Media with contrasting resistivities
+
+地電單元受以下參數影響
+- 第i層的電阻率 (ρi)
+- 第i層的厚度 (ti)
+- 縱向的電導 (SL，單位 mS)
+- 橫向電阻值 (T，單位 Ωm^2)
+- 縱向電阻率 (ρL，單位 Ωm)
+- 橫向電阻率 (ρT，單位 Ωm)
+
+#### Dar Zarrouk parameters
+
+厚度 (h)，電阻率 (ρ)，電導率 (σ)
+
+- 縱向的電導 (SL，單位 mS)
+  - SL = h/ρ = h.σ 
+- 橫向電阻值 (T，單位 Ωm^2)
+  - T = h.ρ 
+- 縱向電阻率 (ρL，單位 Ωm)
+  - ρL = h/S
+- 橫向電阻率 (ρT，單位 Ωm)
+  - ρT = T/h
+
+(p.299)
+
 
